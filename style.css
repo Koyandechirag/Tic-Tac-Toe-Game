@@ -100,7 +100,7 @@ nav ul{
     transition: width 1s ease-in-out;
 }
 
-@media screen and (max-width: 950px)
+@media screen and  (max-width: 200px)
 {
     .gameContainer{
         flex-wrap: wrap;
@@ -114,5 +114,14 @@ nav ul{
     .container { 
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
+    }
+
+    .line{
+        background-color: black;
+        height: 3px;
+        width: 0;
+        display: block;
+        background-color: #911d91;
+        transition: width 1s ease-in-out;
     }
 }
