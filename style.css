@@ -104,10 +104,12 @@ nav ul{
 {
     .gameInfo{
         flex-wrap: wrap;
-        margin-top: 210px;
+        
+        margin-top: 150px;
+        margin-left: -150px;
     }
     .container{
-        left: 150px;    
+        left: 70px;    
     }
 }
 @media (min-width: 450)
@@ -140,3 +142,5 @@ nav ul{
         transition: width 1s ease-in-out;
     }
 }
+
+
