@@ -31,7 +31,7 @@ nav ul{
     grid-template-columns: repeat(3, 10vw);
     font-family: 'Roboto', sans-serif;
     position: relative;
-    margin-top: 50px;
+    margin-left: 60px;
 }
 
 .box{
@@ -100,19 +100,33 @@ nav ul{
     background-color: #911d91;
     transition: width 1s ease-in-out;
 }
-
-@media screen and  (max-width: 200px)
+@media (max-width: 650px)
+{
+    .gameInfo{
+        flex-wrap: wrap;
+        margin-top: 210px;
+    }
+    .container{
+        left: 150px;    
+    }
+}
+@media (min-width: 450)
 {
     .gameContainer{
         flex-wrap: wrap;
     }
+    .container{
+        left: 100px;
+    }
     .gameInfo{
-        margin-top: 34px;
+        margin-top: 210px;
+        size: 100rem;
     }
     .gameInfo h1{
         font-size: 1.5rem;
     }
-    .container { 
+    .container {
+        display: none;
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
     }
